@@ -1,21 +1,21 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { IoIosMail } from "react-icons/io";
-
+import whatsap from "../../assets/images/whatsap.png";
 const Footer = () => {
   return (
-    <div className="">
+    <div className="p-4 font-Poppins lg:px-10 ">
       {/* contactinfo */}
-      <div className="py-10 flex flex-col items-center bg-[#010000] text-white gap-3 m-5">
+      <div className=" bg-[#191e1f] text-white py-[4.5rem] mb-4 lg:flex lg:justify-around lg:py-[4rem]">
         {/* whatsapp */}
-        <div className="flex flex-col items-center text-xl">
+        <div className="flex flex-col items-center text-lg mb-3 hover:text-[#FFA500]">
           <span>
             <FaPhoneAlt />
           </span>
           <Link to="tel:+919999934003">Call : +91 9999 934 003</Link>
         </div>
         {/* email */}
-        <div className="flex flex-col items-center text-xl">
+        <div className="flex flex-col items-center text-xl mb-3 hover:text-[#FFA500]">
           <span>
             <IoIosMail />
           </span>
@@ -23,10 +23,14 @@ const Footer = () => {
             Email : info@rishikeshonwheels.com
           </Link>
         </div>
+        {/* whatsapp */}
+        <div className="flex justify-center">
+          <img src={whatsap} alt="whatsappp" width={200} />
+        </div>
       </div>
 
       {/* copywrite */}
-      <div>
+      <div className="lg:text-center">
         <p>
           &copy; 2024 All Rights Reserved By Rishikesh On Wheels Distribution
           @kamisama

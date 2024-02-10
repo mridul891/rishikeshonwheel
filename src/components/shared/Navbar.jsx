@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
-  const [check, setCheck] = useState(false);
+  const [check, setCheck] = useState(true);
   return (
     <div className="flex flex-col lg:flex-row">
       <div className="flex justify-between px-5">
