@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="flex flex-col lg:flex-row">
       <div className="flex justify-between px-5">
-        <div className="flex items-center ">
+        <div className="flex items-center gap-1">
           <img src={logo} alt="logo" width={70} />
           <h1 className="font-bold text-xl">RISHIKESH ON WHEELS</h1>
         </div>
