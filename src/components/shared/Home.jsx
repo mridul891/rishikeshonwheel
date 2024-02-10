@@ -16,10 +16,11 @@ const Home = () => {
           {Data.map((_, index) => (
             <CarouselItem key={index}>
               <div className="p-1">
-                <Card className="">
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                    <span className="text-4xl font-semibold">{_.des}</span>
-                    <img src={_.url}/>
+                <Card className="border-none shadow-none">
+                  <CardContent className="flex flex-col aspect-square items-start justify-start p-6">
+                    <h1 className="text-4xl font-bold">{_.heading}</h1>
+                    <span className="">{_.des}</span>
+                    <img src={_.url} />
                   </CardContent>
                 </Card>
               </div>
