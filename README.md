@@ -26,10 +26,10 @@ Make sure you have Node.js and npm installed on your machine.
         npm run dev
 Open your browser and navigate to http://localhost:3000 to view the website.
 
-##Dependencies
+## Dependencies
   The project relies on the following dependencies:
 
-#@types/node: ^20.11.17
+1. **@types/node: ^20.11.17**
 #@types/react: ^18.2.55
 @types/react-dom: ^18.2.19
 @vitejs/plugin-react: ^4.2.1
