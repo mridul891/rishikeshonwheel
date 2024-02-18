@@ -43,4 +43,4 @@ Open your browser and navigate to http://localhost:3000 to view the website.
 12. **vite: ^5.1.0**
 
 ## Contributing
-    We welcome contributions from the community. If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
+   We welcome contributions from the community. If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
