@@ -30,17 +30,17 @@ Open your browser and navigate to http://localhost:3000 to view the website.
   The project relies on the following dependencies:
 
 1. **@types/node: ^20.11.17**
-#@types/react: ^18.2.55
-@types/react-dom: ^18.2.19
-@vitejs/plugin-react: ^4.2.1
-autoprefixer: ^10.4.17
-eslint: ^8.56.0
-eslint-plugin-react: ^7.33.2
-eslint-plugin-react-hooks: ^4.6.0
-eslint-plugin-react-refresh: ^0.4.5
-postcss: ^8.4.35
-tailwindcss: ^3.4.1
-vite: ^5.1.0
+2. **@types/react: ^18.2.55**
+3. **@types/react-dom: ^18.2.19**
+4. **@vitejs/plugin-react: ^4.2.1**
+5. **autoprefixer: ^10.4.17**
+6. **eslint: ^8.56.0**
+7. **eslint-plugin-react: ^7.33.2**
+8. **eslint-plugin-react-hooks: ^4.6.0**
+9. **eslint-plugin-react-refresh: ^0.4.5**
+10. **postcss: ^8.4.35**
+11. **tailwindcss: ^3.4.1**
+12. **vite: ^5.1.0**
 
 ##Contributing
     We welcome contributions from the community. If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
