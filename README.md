@@ -1,32 +1,33 @@
-Rishikesh On Wheel - Vehicle Renting Service
+# Rishikesh On Wheel - Vehicle Renting Service
+
 Welcome to Rishikesh On Wheel - your go-to platform for hassle-free vehicle rentals in Rishikesh. This React-based website provides a seamless experience for users to browse, select, and rent vehicles for their travel needs.
 
-Getting Started
+## Getting Started
+
 To get started with the project, follow these instructions:
 
-Prerequisites
+### Prerequisites
+
 Make sure you have Node.js and npm installed on your machine.
 
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/rishikesh-on-wheel.git
-cd rishikesh-on-wheel
-Install dependencies:
-bash
-Copy code
-npm install
-Development Server
-Run the development server:
+### Installation
 
-bash
-Copy code
-npm run dev
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/mridul891/rishikeshonwheel.git
+   cd rishikesh-on-wheel
+   
+## Install dependencies:
+   npm install
+
+## Development Server
+  Run the development server:
+        npm run dev
 Open your browser and navigate to http://localhost:3000 to view the website.
 
-Dependencies
-The project relies on the following dependencies:
+#Dependencies
+  The project relies on the following dependencies:
 
 @types/node: ^20.11.17
 @types/react: ^18.2.55
@@ -40,10 +41,6 @@ eslint-plugin-react-refresh: ^0.4.5
 postcss: ^8.4.35
 tailwindcss: ^3.4.1
 vite: ^5.1.0
-Contributing
-We welcome contributions from the community. If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Happy renting with Rishikesh On Wheel! 🚗🛵🚚
+##Contributing
+    We welcome contributions from the community. If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
