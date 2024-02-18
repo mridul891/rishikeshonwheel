@@ -67,14 +67,19 @@ module.exports = {
           to: { height: "0" },
         },
         "loop-scroll": {
-          from: { transform: "translateX(0)" },
+          from: { transform: "translateX(20)" },
           to: { transform: "translatex(-300%)" }
+        },
+        "parallax": {
+          from: { transform: "translateY(-20px)" },
+          to: { transform: "translateY(20px)" }
         }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "loop-scroll": "loop-scroll "
+        "loop-scroll": "loop-scroll 8s linear infinite",
+        "parallax": "parallax 1s ease-in-out infinite alternate"
       },
       fontFamily: {
         body: ['Poppins']

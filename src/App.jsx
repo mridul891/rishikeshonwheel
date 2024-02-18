@@ -4,12 +4,19 @@ import Navbar from "./components/shared/Navbar";
 import Footer from "./components/shared/Footer";
 import Home from "./components/shared/Home";
 
+import About from "./components/shared/About";
+import ContactUs from "./components/shared/ContactUs";
+import Fleet from "./components/shared/Fleet";
+
 function App() {
   return (
-    <div className="bg-[#Fbfcf8] h-[100vh] w-[100vw]">
+    <div >
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<ContactUs />} />
+        <Route path='/fleet' element={<Fleet />} />
       </Routes>
       <Footer />
     </div>
