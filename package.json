@@ -22,6 +22,7 @@
     "clsx": "^2.1.0",
     "emailjs": "^4.0.3",
     "embla-carousel-react": "^8.0.0-rc22",
+    "glsl-shader-loader": "^0.1.6",
     "leaflet": "^1.9.4",
     "maplibre-gl": "^4.0.1",
     "react": "^18.2.0",
@@ -31,6 +32,7 @@
     "react-router-dom": "^6.22.0",
     "reacticons": "^0.0.1",
     "require": "^2.4.20",
+    "sheryjs": "^1.0.0-beta.0.1.7",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
