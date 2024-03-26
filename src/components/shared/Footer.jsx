@@ -12,7 +12,7 @@ const Footer = () => {
           <span>
             <FaPhoneAlt />
           </span>
-          <Link to="tel:+919999934003">Call : +91 9999 934 003</Link>
+          <Link to="tel:+917351515073">Call : +91 7351 515 073</Link>
         </div>
         {/* email */}
         <div className="flex flex-col items-center text-lg mb-3 hover:text-[#FFA500]">

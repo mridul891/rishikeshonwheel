@@ -3,6 +3,8 @@ import one from "../../assets/images/one.png";
 import second from "../../assets/images/second.png";
 import third from "../../assets/images/third.png";
 import logo from "../../assets/images/logo.png";
+import service from "../../assets/images/services.png"
+import '../shared/Home.css'
 import {
   Carousel,
   CarouselContent,
@@ -55,6 +57,51 @@ const Home = () => {
         </p>
       </div>
 
+      {/* Services we also offer */}
+      {/* <div className="bg-stone-100 m-3 gap-4 p-10 w-[90w] relative lg:flex lg:justify-between lg:items-center lg:w-[95vw] lg:mx-auto lg:p-[10rem]"> */}
+      {/* <img src={service} alt="logo" className="lg:w-[500px]" />
+        <div className="flex flex-col w-[80vw] lg:w-[40vw]">
+          <h1 className="text-3xl mt-[10px] font-bold text-black text-left mb-4 lg:text-4xl">
+            SERVICES WE OFFER
+          </h1>
+          <ul className="font-medium  text-[18px] text-black-300 mb-4 lg:text-2xl ">
+            <li>Taxi Booking</li>
+            <li>Chardham Yatra</li>
+            <li>Bungee Jumping</li>
+            <li>River Rafting</li>
+            <li>Adventurous Sports</li>
+          </ul>
+        </div> */}
+      <div className="bg-stone-100 m-3 gap-4 p-10 w-[90w] flex-col relative lg:flex  lg:justify-between lg:items-center lg:w-[95vw] lg:mx-auto ">
+        <div>
+          <h1 className="text-3xl mt-[10px] font-bold text-black text-left mb-4 lg:text-4xl">
+            OTHER SERVICES WE OFFER
+          </h1>
+        </div>
+        <div className=" relative mt-10  lg:h-[40vh] lg:w-[30vw] lg:mx-auto lg:my-10 ">
+          <div className="swatch ">
+            <div className="relative ">
+              <h1 className="font-bold rotate-90 m-10 text-xl lg:text-2xl lg:m-9 text-white"><span>Taxi</span>Booking</h1>
+            </div>
+            <div className="relative  ">
+              <h1 className="font-bold rotate-90 m-10 text-xl lg:text-2xl lg:m-9 text-white"><span>Chardham</span>Yatra</h1>
+            </div>
+            <div className="relative  ">
+              <h1 className="font-bold rotate-90 m-10 text-xl lg:text-2xl lg:m-9 text-white"><span>Bungee</span>Jumping</h1>
+            </div>
+            <div className="relative  ">
+              <h1 className="font-bold rotate-90 m-10 text-xl  lg:text-2xl lg:m-9 text-white"><span>River</span>Rafting</h1>
+            </div>
+            <div className="relative  ">
+              <h1 className="font-bold rotate-90 m-10 text-xl lg:text-2xl lg:m-9 text-white"><span>Adventurous</span>Sports</h1>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      {/* </div> */}
+
       {/* aboutus */}
       <div className="bg-stone-100 m-3 gap-4 p-10 w-[90w] relative lg:flex lg:justify-between lg:items-center lg:w-[95vw] lg:mx-auto lg:p-[10rem]">
         <img src={logo} alt="logo" className="lg:w-[500px]" />
@@ -69,7 +116,11 @@ const Home = () => {
             and a commitment to providing exceptional experiences, our bike rental
             service is your gateway to freedom on two wheels.
           </p>
-          <Button className="bg-blue-400 mt-4 w-[40vw] rounded-xl px-11 py-6 text-xl lg:w-[10vw] ">Contact Us</Button>
+          <Button className="bg-blue-400 mt-4 w-[40vw] rounded-xl px-11 py-6 text-xl lg:w-[10vw] ">
+            <Link to='/contact'>
+              Contact Us
+            </Link>
+          </Button>
         </div>
       </div>
     </>

@@ -7,6 +7,7 @@ import Home from "./components/shared/Home";
 import About from "./components/shared/About";
 import ContactUs from "./components/shared/ContactUs";
 import Fleet from "./components/shared/Fleet";
+import Blog from "./components/shared/Blog";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<ContactUs />} />
         <Route path='/fleet' element={<Fleet />} />
+        <Route path='/blog' element={<Blog />} />
       </Routes>
       <Footer />
     </div>
