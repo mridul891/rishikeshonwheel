@@ -7,6 +7,8 @@ import four from '../../assets/images/River-rafting.jpg'
 import five from '../../assets/images/PatnaWaterfall.jpg'
 import six from '../../assets/images/neelkanth_mahadev.jpg'
 const Blog = () => {
+
+
     const info = [one, two, three, four, five, six];
     return (
         <div className='lg:w-[60vw] lg:m-auto'>
@@ -28,5 +30,4 @@ const Blog = () => {
         </div>
     )
 }
-
 export default Blog
