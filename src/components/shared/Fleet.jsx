@@ -5,7 +5,7 @@ const Fleet = () => {
   return (
     <div className='lg:w-[60vw] lg:m-auto'>
       <div className='my-[20vw] mx-3 lg:my-[5vw]'>
-        <h1 className='text-4xl font-bold mb-3'>OUR FLEET</h1>
+        <h1 className='text-4xl font-bold mb-3 text-center'>OUR FLEET</h1>
         <p className='font-medium  text-[18px]'>At <b>Rishikesh On Wheels</b>, the road ahead is not just a path; it&apos;s a canvas for your unique story. Embrace the freedom of choice, and let your journey with us be a reflection of your individuality. Your adventure begins with selecting the perfect ride from our versatile fleet – embark on it today!</p>
       </div>
       <div className='flex flex-col gap-10 m-3 md:flex-row lg:flex-row lg:items-center lg:justify-center'>

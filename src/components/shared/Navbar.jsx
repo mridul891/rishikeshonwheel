@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../../assets/images/logo.png";
 import { IoMenu } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -6,11 +6,14 @@ import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
   const [check, setCheck] = useState(false);
+  useEffect(() => {
+    setCheck(false);
+  },[]);
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between lg:px-10 lg:items-center">
       <div className="flex justify-between px-5 lg:px-4 ">
         <div className="flex items-center gap-1">
-          <img src={logo} alt="logo" className="w-[70px] lg:w-[180px]"/>
+          <img src={logo} alt="logo" className="w-[70px] lg:w-[180px]" />
           <h1 className="font-bold text-xl lg:text-3xl">RISHIKESH ON WHEELS</h1>
         </div>
         <button onClick={() => setCheck((prevCheck) => !prevCheck)}>
@@ -21,7 +24,7 @@ const Navbar = () => {
           )}
         </button>
       </div>
-      <div className={check ? "hidden" : ""}>
+      <div className={check ? "hidden" : "none"}>
         <ul className="flex flex-col items-center gap-3 text-lg font-medium lg:flex-row lg:m-10 lg:p-10 lg:gap-10 lg:text-xl lg:font-medium">
           <li className="list-none">
             <Link to="/">HOME</Link>
